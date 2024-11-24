@@ -1,8 +1,8 @@
 
-# ☕ Chai aur Javascript 1
+# ☕ Chai aur Javascript
 
 <div align="left">
-  <i>Sarfaraz Running Notes</i>
+  <i>Dibya Running Notes</i>
 </div>
 
 <br/>

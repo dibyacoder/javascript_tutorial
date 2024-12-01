@@ -7,7 +7,7 @@ const myTotal = myNums.reduce(function (acc, currval) {
 
 //const myTotal = myNums.reduce( (acc, curr) => acc+curr, 0)
 
-console.log(myTotal);
+console.log(myTotal); // 6
 
 
 const shoppingCart = [

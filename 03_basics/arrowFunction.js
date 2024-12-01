@@ -9,9 +9,9 @@ const user = {
 
 }
 
-// user.welcomeMessage()
-// user.username = "sam"
-// user.welcomeMessage()
+user.welcomeMessage()
+user.username = "sam"
+user.welcomeMessage()
 
 console.log(this);  // This will print {} because there is no current context, but if we run the same syntax in browser it wont be empty
 

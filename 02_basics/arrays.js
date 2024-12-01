@@ -12,16 +12,16 @@ const myArr2 = new Array(1, 2, 3, 4)
 // myArr.push(7)
 // myArr.pop()
 
-// myArr.unshift(9)
-// myArr.shift()
+// myArr.unshift(9)  //To push at the front of the array
+// myArr.shift()  //To remove at the front of the array
 
 // console.log(myArr.includes(9));
 // console.log(myArr.indexOf(3));
 
-// const newArr = myArr.join() //Convert the array to a string
+const newArr = myArr.join() //Convert the array to a string
 
-//console.log(typeof myArr); //object
-// console.log( newArr);
+console.log(typeof myArr); //object
+console.log( newArr);
 
 
 // slice, splice

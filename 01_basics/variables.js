@@ -11,7 +11,7 @@ accountEmail = "hc@hc.com"
 accountPassword = "21212121"
 accountCity = "Bengaluru"
 
-console.log(accountId);
+console.log(accountCity);
 
 /*
 Prefer not to use var

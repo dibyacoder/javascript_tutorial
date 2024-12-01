@@ -3,7 +3,7 @@
 // ["", "", ""]
 // [{}, {}, {}]
 
-const arr = [1, 2, 3, 4, 5]
+ const arr = [1, 2, 3, 4, 5]
 
 for (const num of arr) {
     //console.log(num);
@@ -15,7 +15,7 @@ for (const greet of greetings) {
 }
 
 // Maps
-
+// Maps contains only unique values
 const map = new Map()
 map.set('IN', "India")
 map.set('USA', "United States of America")
@@ -36,6 +36,7 @@ const myObject = {
     game2: 'Spiderman'
 }
 
-for (const [key, value] of myObject) {
-    console.log(key, ':-', value); //Will give error
-}
+
+// for (const [key, value] of myObject) {
+//     console.log(key, ':-', value); //Will give error
+// }

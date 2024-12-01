@@ -4,7 +4,7 @@ let myDate = new Date()
 console.log(myDate.toString());
 console.log(myDate.toDateString());
 console.log(myDate.toLocaleString());
-console.log(typeof myDate);
+console.log(typeof myDate); //Object
 
 let myCreatedDt = new Date(2023, 0, 23)
 // let myCreatedDt = new Date(2023, 0, 23, 5, 3)
@@ -15,7 +15,7 @@ console.log(myCreatedDt.toLocaleString());
 let myTimeStamp = Date.now()
 
 console.log(myTimeStamp);
-//console.log(myCreatedDt.getTime());
+//console.log(myCreatedDt.getTime()); // In milli seconds
 console.log(Math.floor(Date.now()/1000)); // in seconds
 
 let newDate = new Date()

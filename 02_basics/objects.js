@@ -18,10 +18,10 @@ const JsUser = {
     lastLoginDays: ["Monday", "Saturday"]
 }
 
-// console.log(JsUser.email)
-// console.log(JsUser["email"])
-// console.log(JsUser["full name"])
-// console.log(JsUser[mySym])
+console.log(JsUser.email)
+console.log(JsUser["email"])
+console.log(JsUser["full name"])
+console.log(JsUser[mySym])
 
 JsUser.email = "hitesh@chatgpt.com"
 // Object.freeze(JsUser) // If i am freezing an object then i can not make changes to any of the key value pair.

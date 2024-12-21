@@ -17,7 +17,7 @@ console.log(gameName.charAt(2));
 console.log(gameName.indexOf('t'));
 
 const newString = gameName.substring(0, 4)
-console.log(newString);
+console.log(newString); // hite
 
 const anotherString = gameName.slice(-1, 4) //Not working on negative starting index
 console.log(anotherString);
@@ -32,4 +32,4 @@ console.log(url.replace('%20', '-'))
 
 console.log(url.includes('sundar')) // Return true/false
 
-console.log(gameName.split('-'));
+console.log(gameName.split('-'));  // returns an array

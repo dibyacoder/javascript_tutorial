@@ -10,7 +10,7 @@ console.log(marvel_heros[3][1]);
 const allHeros = marvel_heros.concat(dc_heros)
 console.log(allHeros); //[ 'thor', 'Ironman', 'spiderman', 'superman', 'flash', 'batman' ]
 
-const all_new_heros = [...marvel_heros, ...dc_heros] //Spread operator (Can be used to merge multiple arrays)
+const all_new_heros = ["pintuMan",...marvel_heros, ...dc_heros] //Spread operator (Can be used to merge multiple arrays)
 
 console.log(all_new_heros);
 

@@ -15,7 +15,7 @@ const myArr2 = new Array(1, 2, 3, 4)
 // myArr.unshift(9)  //To push at the front of the array
 // myArr.shift()  //To remove at the front of the array
 
-// console.log(myArr.includes(9));
+// console.log(myArr.includes(9)); // returns boolean
 // console.log(myArr.indexOf(3));
 
 const newArr = myArr.join() //Convert the array to a string

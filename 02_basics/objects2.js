@@ -26,8 +26,8 @@ const obj4 = {5: "a", 6: "b"}
 // const obj3 = { obj1, obj2 } // Not preferrable, will create an object inside an object.
 // const obj3 = Object.assign({}, obj1, obj2, obj4) // Use to merge the objects
 
-const obj3 = {...obj1, ...obj2} // Merge the objects using spread operator
-// console.log(obj3);
+const obj3 = {10:"z",...obj1, ...obj2} // Merge the objects using spread operator
+ console.log(obj3);
 
 
 const users = [
